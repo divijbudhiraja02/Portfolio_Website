@@ -44,8 +44,8 @@ export const equityResearch = [
       'Div. Yield': '2.8%',
     },
     files: {
-      model: '/work/equity-research/europe/business-services/intertek/model.xlsx',
-      pitchDeck: '/work/equity-research/europe/business-services/intertek/pitch_deck.pdf',
+      model: 'work/equity-research/europe/business-services/intertek/model.xlsx',
+      pitchDeck: 'work/equity-research/europe/business-services/intertek/pitch_deck.pdf',
     },
   },
   {
@@ -77,8 +77,8 @@ export const equityResearch = [
       'Revenue Growth': '+14% YoY',
     },
     files: {
-      model: '/work/equity-research/europe/consumer-goods/hermes/model.xlsx',
-      pitchDeck: '/work/equity-research/europe/consumer-goods/hermes/pitch_deck.pdf',
+      model: 'work/equity-research/europe/consumer-goods/hermes/model.xlsx',
+      pitchDeck: 'work/equity-research/europe/consumer-goods/hermes/pitch_deck.pdf',
     },
   },
   {
@@ -110,8 +110,8 @@ export const equityResearch = [
       'Revenue Growth': '+8% YoY',
     },
     files: {
-      model: '/work/equity-research/europe/consumer-staples/loreal/model.xlsx',
-      pitchDeck: '/work/equity-research/europe/consumer-staples/loreal/pitch_deck.pdf',
+      model: 'work/equity-research/europe/consumer-staples/loreal/model.xlsx',
+      pitchDeck: 'work/equity-research/europe/consumer-staples/loreal/pitch_deck.pdf',
     },
   },
   {
@@ -143,8 +143,8 @@ export const equityResearch = [
       'Net Cash': '$4.8B',
     },
     files: {
-      model: '/work/equity-research/us/industrials/copart/model.xlsx',
-      pitchDeck: '/work/equity-research/us/industrials/copart/pitch_deck.pdf',
+      model: 'work/equity-research/us/industrials/copart/model.xlsx',
+      pitchDeck: 'work/equity-research/us/industrials/copart/pitch_deck.pdf',
     },
   },
   {
@@ -176,9 +176,9 @@ export const equityResearch = [
       'DAUs': '88M+',
     },
     files: {
-      model: '/work/equity-research/us/technology/duolingo/model.xlsx',
-      pitchDeck: '/work/equity-research/us/technology/duolingo/pitch_deck.pdf',
-      supplementary: '/work/equity-research/us/technology/duolingo/Q3_2025.pdf',
+      model: 'work/equity-research/us/technology/duolingo/model.xlsx',
+      pitchDeck: 'work/equity-research/us/technology/duolingo/pitch_deck.pdf',
+      supplementary: 'work/equity-research/us/technology/duolingo/Q3_2025.pdf',
     },
   },
 ];
@@ -230,8 +230,8 @@ export const mna = [
       { year: 'Year 3', standalone: '$1.323', proForma: '$0.995', dilution: '(24.8%)' },
     ],
     files: {
-      model: '/work/mna/hpe-juniper/model.xlsx',
-      pitchDeck: '/work/mna/hpe-juniper/pitch_deck.pdf',
+      model: 'work/mna/hpe-juniper/model.xlsx',
+      pitchDeck: 'work/mna/hpe-juniper/pitch_deck.pdf',
     },
   },
 ];
@@ -280,8 +280,8 @@ export const lbo = [
       { label: 'Mgmt. Case', exitMult: '22.0x', cagr: '15.0%', irr: '32.0%', moic: '4.00x' },
     ],
     files: {
-      model: '/work/lbo/autostore/model.xlsx',
-      pitchDeck: '/work/lbo/autostore/pitch_deck.pdf',
+      model: 'work/lbo/autostore/model.xlsx',
+      pitchDeck: 'work/lbo/autostore/pitch_deck.pdf',
     },
   },
 ];
