@@ -3,6 +3,7 @@ name: Deploy Frontend to GitHub Pages
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -10,6 +11,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v18
+        with:
+          cache: npm
 
       - name: Install and Build
         run: |
@@ -22,3 +28,4 @@ jobs:
         with:
           folder: frontend/build
           branch: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
