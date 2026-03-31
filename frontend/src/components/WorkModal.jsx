@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FiX, FiDownload, FiFileText, FiBarChart2, FiExternalLink } from 'react-icons/fi';
+import { FiX, FiDownload, FiFileText, FiBarChart2 } from 'react-icons/fi';
 import ExcelViewer from './ExcelViewer';
 
 /**
