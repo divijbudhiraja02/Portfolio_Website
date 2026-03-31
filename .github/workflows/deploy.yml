@@ -1,5 +1,9 @@
 name: Deploy Frontend to GitHub Pages
 
+permissions:
+  contents: write
+  pages: write
+
 on:
   push:
     branches: [ main ]
